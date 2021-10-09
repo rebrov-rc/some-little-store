@@ -5,8 +5,13 @@ interface IAction {
     payload: {}
 }
 
+interface ICartItem {
+    id: string,
+    name: string,
+    cost: string
+}
 interface ICartList {
-    list: {}[]
+    list: ICartItem[]
 }
 
 let cartList : ICartList = {
