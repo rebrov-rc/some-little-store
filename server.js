@@ -8,9 +8,9 @@ app.use(express.static(path.resolve(__dirname, './client/build')));
 
 const fine  = "OK!";
 
-// app.get('*', (req, res) => {
-//     res.sendFile(path.join(__dirname, './client/build',  './index.html'))
-// });
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, './client/build',  './build/index.html'))
+});
 
 
 
