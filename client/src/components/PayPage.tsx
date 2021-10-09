@@ -25,7 +25,7 @@ const order = (M: any, U: any, C: any, O: any) => {
     U.name.length != 0?  O("DONE"): M(true);
 }
 
-const fine : string = "OK!";
+
 
 const PayPage : React.FC<IPaypage> = (props) => {
     const data = {name : '', number : '', emale : '',  adress: ''}
