@@ -34,7 +34,7 @@ let cartList : ICartList = {
         {
             id: "001",
             name: "Petrocard",
-            cost: "22550"
+            cost: "1111"
         },
     ]
 } 

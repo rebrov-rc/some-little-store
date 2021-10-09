@@ -13,7 +13,7 @@ const PayContainer : React.FC = () => {
     })
 
     const mapDispatchToProps = (dispatch : any) : any  => ({
-
+        dispatch
     })
 
 
