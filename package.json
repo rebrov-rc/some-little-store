@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://rebrov-rc.github.io/some-little-store/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-local": "react-scripts start",
     "start": "node server.js",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "deploy": ""
   },
   "keywords": [],
   "author": "",
@@ -19,6 +21,7 @@
     "@types/react-router-dom": "^5.3.1",
     "axios": "^0.22.0",
     "express": "^4.17.1",
+    "gh-pages": "^3.2.3",
     "node-sass": "^6.0.1",
     "query-string": "^7.0.1",
     "react": "^17.0.2",
