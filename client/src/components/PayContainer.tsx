@@ -9,7 +9,8 @@ const PayContainer : React.FC = () => {
 
     const mapStateToProps = (state : any) : any => ({
             user: state.User,
-            cart: state.Cart
+            cart: state.Cart,
+            locals: state.Locals
     })
 
     const mapDispatchToProps = (dispatch : any) : any  => ({
